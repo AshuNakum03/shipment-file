@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #F4F7FE;
+}
+
+.hero-page {
+  width: 100%;
+}
+
+.left_sidebar {
+  width: 25%;
+  padding: 2rem;
+  background-color: white;
+}
+
+.dropdown-toggle {
+  background-color: #F1F4FF;
+}
+
+.right_sidebar {
+  padding-left: 3rem;
+  width: 75%;
+}
+
+.hero_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.right-table {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.space {
+  padding: 1rem !important;
+}
