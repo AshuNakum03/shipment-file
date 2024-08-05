@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import logo from './assets/Shipmntslogo.png'
 import './App.css'
+import FileExplorer from './components/FileExplorer';
 
 function App() {
 
@@ -24,14 +25,14 @@ function App() {
 
           <div>
             <h4>Files</h4>
-            <div class="dropdown">
-              <button class="btn btn-md dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <div className="dropdown">
+              <button className="btn btn-md dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Master
               </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="#">Action</a></li>
+                <li><a className="dropdown-item" href="#">Another action</a></li>
+                <li><a className="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </div>
           </div>
@@ -46,14 +47,14 @@ function App() {
               <h2 className="m-0 p-0">Shipmnts</h2>
             </div>
             <div>
-              <div class="dropdown">
-                <button class="btn btn-md dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <div className="dropdown">
+                <button className="btn btn-md dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Master
                 </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="#">Action</a></li>
+                  <li><a className="dropdown-item" href="#">Another action</a></li>
+                  <li><a className="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </div>
             </div>
@@ -100,6 +101,8 @@ function App() {
           </div>
         </section>
       </div>
+
+      <FileExplorer />
     </>
   )
 }
